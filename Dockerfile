@@ -19,4 +19,4 @@ ADD src/ /src/
 WORKDIR /src/
 
 # Make unittest as the default execution...
-ENTRYPOINT python3 -m unittest
+ENTRYPOINT python3 ---m unittest
